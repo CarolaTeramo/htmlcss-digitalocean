@@ -10,4 +10,13 @@ section{
 .navbar{
   margin-bottom: 0;
 }
-.grey{}
+.grey{
+  background-color:lightgrey;
+}
+.col-md-2 img, .col-md-6 img{
+  width: 100%;
+}
+.bscuro{
+  background-color: #031b4e;
+  color: white;
+}
