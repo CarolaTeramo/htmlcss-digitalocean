@@ -37,11 +37,17 @@ section, footer{
 .blue .col-md-4{
   border-radius: 1%;
 }
+.blue .col-md-4 p{
+  font-size: 10px;
+}
 .jumbotron{
   background-color: blue;
 }
 .white .col-md-6 p,.white .col-md-12 p, .white .col-md-4 p{
   color: grey;
+}
+a:hover {
+  text-decoration:none;
 }
 footer .col-md-2 ul, .col-md-4 ul{
   padding-inline-start: 0;
