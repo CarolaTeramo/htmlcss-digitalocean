@@ -28,8 +28,20 @@ section, footer{
 .mb-30{
   margin-bottom: 30px;
 }
-.col-md-5 h2{
+.mt-60{
+  margin-top: 60px;
+}
+.blue .col-md-4 h2,.blue .col-md-4 p{
   color: black;
+}
+.blue .col-md-4{
+  border-radius: 1%;
+}
+.jumbotron{
+  background-color: blue;
+}
+.white .col-md-6 p,.white .col-md-12 p, .white .col-md-4 p{
+  color: grey;
 }
 footer .col-md-2 ul, .col-md-4 ul{
   padding-inline-start: 0;
@@ -43,4 +55,7 @@ footer .col-md-4 ul li:first-child {
 }
 footer .col-md-2 li{
   display: block;
+}
+footer .fab{
+  color: white;
 }
