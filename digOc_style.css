@@ -65,3 +65,15 @@ footer .col-md-2 li{
 footer .fab{
   color: white;
 }
+
+@media all and (max-width: 768px){
+  section, footer{
+    padding: 0;
+  }
+  [class^="row"]{
+    margin-top: 30px;
+  }
+  .blue .col-md-12 button{
+    margin-bottom: 30px;
+  }
+}
